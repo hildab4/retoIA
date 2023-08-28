@@ -1,5 +1,3 @@
-Aquí tienes un archivo README para el código y el conjunto de datos proporcionado:
-
 # Análisis y Limpieza de Datos - Reto de Predicción de Ventas en Favorita Ecuador
 
 Este repositorio contiene el código y los archivos necesarios para abordar el reto de predicción de ventas en Favorita Ecuador. El reto implica predecir las ventas de las diversas familias de productos vendidos en las tiendas Favorita en Ecuador. El conjunto de datos proporcionado incluye información de tiendas, productos, promociones, fechas, y otros atributos relevantes.
