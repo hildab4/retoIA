@@ -18,7 +18,7 @@ El archivo `draft1.ipynb` contiene el código en Jupyter Notebook utilizado para
 
 2. **Limpieza de Datos**:
    - Se identificaron los valores NaN en los conjuntos de datos y se imprimió el recuento total de valores NaN para cada conjunto.
-   - Para el conjunto `oil.csv`, se probó la interpolación lineal para rellenar los valores NaN en la columna de precios del petróleo.
+   - Para el conjunto `oil.csv`, se probó la interpolación lineal para rellenar los valores NaN en la columna de precios del petróleo, al final nos quedamos con la media .
    - Se reemplazaron los caracteres especiales y números en la columna de descripción del conjunto `holidays_events.csv`.
 
 3. **Transformación de Datos**:
