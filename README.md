@@ -18,12 +18,16 @@ El archivo `draft1.ipynb` contiene el código en Jupyter Notebook utilizado para
 
 2. **Limpieza de Datos**:
    - Se identificaron los valores NaN en los conjuntos de datos y se imprimió el recuento total de valores NaN para cada conjunto.
-   - Para el conjunto `oil.csv`, se probó la interpolación lineal para rellenar los valores NaN en la columna de precios del petróleo, al final nos quedamos con la media .
+   - El conjunto `oil.csv` contenía valores NaN, por lo que se probó la interpolación lineal para rellenar los valores NaN en la columna de precios del petróleo. Al compararlo con un reemplazo de los datos faltantes con la media aritmética, se obtuvo un mejor resultado en cuanto a la desviación estándar, al final nos quedamos con la media.
    - Se reemplazaron los caracteres especiales y números en la columna de descripción del conjunto `holidays_events.csv`.
 
 3. **Transformación de Datos**:
    - Se transformó el conjunto `holidays_events.csv` para manejar las categorías de días festivos y transferencias, de manera que se obtuvieran las fechas reales en las que se celebraron los días festivos.
-   - Se ajustaron las categorías de días festivos para unificar las categorías 'Additional' y 'Bridge' bajo la categoría 'Holiday'.
+   - Debido a la previa transformación, la columna 'transferred' ya no era de mucha utilidad, por lo que se decidió no tomarla en cuenta, ya que se hizo la relación del evento con su fecha transferida.
+   - Se ajustaron las categorías de días festivos para unificar las categorías 'Additional' y 'Bridge' bajo la categoría 'Holiday', debido a que no hay un interés en hacer una distinción entre estos tipos de evento. Aunque se mantienen los tipos de 'Work Day' y 'Event'.
+  
+## Futuras Implementaciones
+   - Utilizar One Hot Encoding para algunas variables categóricas como lo son 'description' en el archivo `holidays_events.csv`, 'family' en el archivo `train.csv` y `test.csv`.
 
 ## Conjunto de Datos
 
