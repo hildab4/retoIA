@@ -15,7 +15,9 @@ Este repositorio contiene el código y los archivos necesarios para abordar el r
 
 ## Descripción del Código
 
-El archivo `retoFinal.ipynb` contiene el código en Jupyter Notebook utilizado para la solución del reto, en este mismo se realiza la limpieza y transformación de datos, así como la selección de un modelo adecuado. Para encontrar el modelo adecuado se realizó una serie de pruebas modificando los modelos utillizados, así como los hiperparámetros de cada uno; se utilizaron datos de entrenamiento, prueba y validación para calcular métricas y realizar interpretaciones sobre las mismas. A continuación, se presentan los pasos clave realizados en el código:
+El archivo `draft1.ipynb` contiene los primeros avances del reto, no es la entrega final para la solución.
+
+El archivo `reto.ipynb` contiene el código en Jupyter Notebook utilizado para la solución del reto, en este mismo se realiza la limpieza y transformación de datos, así como la selección de un modelo adecuado. Para encontrar el modelo adecuado se realizó una serie de pruebas modificando los modelos utillizados, así como los hiperparámetros de cada uno; se utilizaron datos de entrenamiento, prueba y validación para calcular métricas y realizar interpretaciones sobre las mismas. A continuación, se presentan los pasos clave realizados en el código:
 
 1. **Extracción de Datos**: Se importaron las bibliotecas necesarias para extraer, transformar y visualizar los datos. Se cargaron los archivos CSV de los conjuntos de datos, que incluyen información de tiendas, ventas, promociones, precios del petróleo, días festivos y más.
 
