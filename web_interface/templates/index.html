@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Sales - Time Series Forecasting</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+            background-color: #a1c7d2;
+        }
+
+        form {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin: 10px 0 5px;
+        }
+
+        input {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        p {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Store Sales - Time Series Forecasting</h1>
+
+    <form action="http://localhost:5000/predict" method="POST">
+        <label for="Store_Number">Store Number:</label>
+        <input type="number" id="Store_Number" name="Store_Number" min="1" max="54" required><br>
+
+        <label for="Product_Family">Product Family:</label>
+        <input type="text" id="Product_Family" name="Product_Family" required><br>
+
+        <label for="Date">Date (yyyy-mm-dd):</label>
+        <input type="text" id="Date" name="Date" required><br>
+
+        <input type="submit" value="Submit">
+    </form>
+    <p style="font-size: 24px;">Predicted sales: ${{prediction}}</p>
+</body>
+
+</html>
