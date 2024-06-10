@@ -1,6 +1,3 @@
-## CORRECIONES
-Realizamos correcciones  en la transformación y limpieza de datos tomando en cuenta la retroalimentación que recibimos, esto con el fin de obtener mejores features para el entrenamiento de nuestros modelos.
-
 # Análisis y Limpieza de Datos - Reto de Predicción de Ventas en Favorita Ecuador
 
 Este repositorio contiene el código y los archivos necesarios para abordar el reto de predicción de ventas en Favorita Ecuador. El reto implica predecir las ventas de las diversas familias de productos vendidos en las tiendas Favorita en Ecuador. El conjunto de datos proporcionado incluye información de tiendas, productos, promociones, fechas, y otros atributos relevantes.
@@ -69,3 +66,6 @@ El conjunto de datos proporcionado incluye varios archivos CSV con información 
 
 - Los salarios en el sector público se pagan cada dos semanas el día 15 y el último día del mes. Las ventas en los supermercados podrían verse afectadas por esto.
 - Un terremoto de magnitud 7.8 afectó a Ecuador el 16 de abril de 2016. Los esfuerzos de ayuda afectaron las ventas en los supermercados durante varias semanas después del terremoto.
+
+## CORRECIONES
+Realizamos correcciones  en la transformación y limpieza de datos tomando en cuenta la retroalimentación que recibimos, esto con el fin de obtener mejores features para el entrenamiento de nuestros modelos.
